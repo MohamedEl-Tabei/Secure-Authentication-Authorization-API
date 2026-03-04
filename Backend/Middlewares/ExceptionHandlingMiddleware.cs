@@ -27,9 +27,7 @@ namespace Backend.Middlewares
                     case UnauthorizedAccessException:
                         context.Response.StatusCode = 401;
                         break;
-                    case KeyNotFoundException:
-                        context.Response.StatusCode = 404;
-                        break;
+                    
                     default:
                         context.Response.StatusCode = 500;
                         break;

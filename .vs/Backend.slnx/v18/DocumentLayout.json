@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\uD83D\uDE80 Projects\\App\\Backend\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|Backend\\Backend.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\backend\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|Backend\\Backend.csproj|solutionrelative:backend\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\Backend\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Backend\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\Backend\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "Backend\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwB0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:54:31.03Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -10,3 +10,16 @@ D:\🚀 Projects\App\Backend\DAL\obj\Debug\net10.0\DAL.dll
 D:\🚀 Projects\App\Backend\DAL\obj\Debug\net10.0\refint\DAL.dll
 D:\🚀 Projects\App\Backend\DAL\obj\Debug\net10.0\DAL.pdb
 D:\🚀 Projects\App\Backend\DAL\obj\Debug\net10.0\ref\DAL.dll
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\DAL\bin\Debug\net10.0\DAL.deps.json
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\DAL\bin\Debug\net10.0\DAL.dll
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\DAL\bin\Debug\net10.0\DAL.pdb
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\DAL\obj\Debug\net10.0\DAL.csproj.AssemblyReference.cache
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\DAL\obj\Debug\net10.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\DAL\obj\Debug\net10.0\DAL.AssemblyInfoInputs.cache
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\DAL\obj\Debug\net10.0\DAL.AssemblyInfo.cs
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\DAL\obj\Debug\net10.0\DAL.csproj.CoreCompileInputs.cache
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\DAL\obj\Debug\net10.0\DAL.sourcelink.json
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\DAL\obj\Debug\net10.0\DAL.dll
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\DAL\obj\Debug\net10.0\refint\DAL.dll
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\DAL\obj\Debug\net10.0\DAL.pdb
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\DAL\obj\Debug\net10.0\ref\DAL.dll
