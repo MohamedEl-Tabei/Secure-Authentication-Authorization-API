@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Backend.Controllers.UsersController",
+    "Method": "SignUp",
+    "RelativePath": "api/Users/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTOUserSignUp",
+        "Type": "BL.DTO.DTOUserSignUp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

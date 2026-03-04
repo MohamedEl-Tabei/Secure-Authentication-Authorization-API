@@ -1,0 +1,78 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "Backend | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7099"
+    },
+    {
+      "url": "http://localhost:5270"
+    }
+  ],
+  "paths": {
+    "/api/Users/signup": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOUserSignUp"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOUserSignUp"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOUserSignUp"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DTOUserSignUp": {
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "phoneNumber": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Users"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+D:\🚀 Projects\App\Backend\DAL\bin\Debug\net10.0\DAL.deps.json
+D:\🚀 Projects\App\Backend\DAL\bin\Debug\net10.0\DAL.dll
+D:\🚀 Projects\App\Backend\DAL\bin\Debug\net10.0\DAL.pdb
+D:\🚀 Projects\App\Backend\DAL\obj\Debug\net10.0\DAL.csproj.AssemblyReference.cache
+D:\🚀 Projects\App\Backend\DAL\obj\Debug\net10.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\🚀 Projects\App\Backend\DAL\obj\Debug\net10.0\DAL.AssemblyInfoInputs.cache
+D:\🚀 Projects\App\Backend\DAL\obj\Debug\net10.0\DAL.AssemblyInfo.cs
+D:\🚀 Projects\App\Backend\DAL\obj\Debug\net10.0\DAL.csproj.CoreCompileInputs.cache
+D:\🚀 Projects\App\Backend\DAL\obj\Debug\net10.0\DAL.dll
+D:\🚀 Projects\App\Backend\DAL\obj\Debug\net10.0\refint\DAL.dll
+D:\🚀 Projects\App\Backend\DAL\obj\Debug\net10.0\DAL.pdb
+D:\🚀 Projects\App\Backend\DAL\obj\Debug\net10.0\ref\DAL.dll
