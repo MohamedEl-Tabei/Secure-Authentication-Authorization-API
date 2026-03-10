@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "Backend.Controllers.OTPsController",
+    "Method": "SendToPhoneAsync",
+    "RelativePath": "api/OTPs/send-phone",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTOOTPSendPhone",
+        "Type": "BL.DTO.DTOOTPSendPhone",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Backend.Controllers.UsersController",
     "Method": "SignUp",
     "RelativePath": "api/Users/signup",

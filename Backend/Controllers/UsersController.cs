@@ -19,18 +19,11 @@ namespace Backend.Controllers
         }
         [HttpPost("signup")]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(ErrorResponse),StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> SignUp(DTOUserSignUp dTOUserSignUp)
         {
-            try
-            {
-                await _appUserManager.SignUp(dTOUserSignUp);
-                return Ok();
-            }
-            catch 
-            {
-                throw;
-            }
+            await _appUserManager.SignUp(dTOUserSignUp);
+            return Ok();
         }
     }
 }

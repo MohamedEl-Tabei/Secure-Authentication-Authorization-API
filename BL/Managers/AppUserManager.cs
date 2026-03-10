@@ -1,6 +1,9 @@
 ﻿using BL.DTO;
+using BL.Exceptions;
+using BL.Extensions;
 using BL.IManagers;
 using DAL.Models;
+
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -11,26 +14,31 @@ namespace BL.Managers
 {
     public class AppUserManager : IAppUserManager
     {
-        private readonly UserManager<AppUser> _userManager;
+        private readonly IPasswordHasher<AppUser> _passwordHasher;
+        private readonly IDTOValidators _dTOValidators;
 
-        public AppUserManager(UserManager<AppUser> userManager)
+        public AppUserManager(IPasswordHasher<AppUser> passwordHasher,IDTOValidators dTOValidators)
         {
-            _userManager = userManager;
+            _passwordHasher = passwordHasher;
+            _dTOValidators = dTOValidators;
         }
 
         public async Task SignUp(DTOUserSignUp dTOUserSignUp)
         {
+            #region Validation
+            _dTOValidators.ValidateAndThrowDTOUserSignUp(dTOUserSignUp);
+            #endregion
+            #region User
             var user = new AppUser
             {
-                UserName = $"{dTOUserSignUp.FirstName}_{dTOUserSignUp.LastName}",
+                UserName = $"{dTOUserSignUp.FirstName.CapitalizeFirst()}{dTOUserSignUp.LastName.CapitalizeFirst()}",
                 Email = dTOUserSignUp.Email,
                 PhoneNumber = dTOUserSignUp.PhoneNumber
             };
-            var result = await _userManager.CreateAsync(user, dTOUserSignUp.Password);
-            if (!result.Succeeded)
-            {
-                throw new ValidationException(result.Errors.FirstOrDefault()?.Description);
-            }
+            #endregion
+            #region Password
+            var hashPassword = _passwordHasher.HashPassword(user, dTOUserSignUp.Password);
+            #endregion
         }
     }
 }

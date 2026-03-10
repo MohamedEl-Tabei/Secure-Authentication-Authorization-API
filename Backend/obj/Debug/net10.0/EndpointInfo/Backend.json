@@ -13,6 +13,38 @@
     }
   ],
   "paths": {
+    "/api/OTPs/send-phone": {
+      "post": {
+        "tags": [
+          "OTPs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOOTPSendPhone"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOOTPSendPhone"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOOTPSendPhone"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Users/signup": {
       "post": {
         "tags": [
@@ -68,6 +100,14 @@
   },
   "components": {
     "schemas": {
+      "DTOOTPSendPhone": {
+        "type": "object",
+        "properties": {
+          "phoneNumber": {
+            "type": "string"
+          }
+        }
+      },
       "DTOUserSignUp": {
         "type": "object",
         "properties": {
@@ -88,17 +128,43 @@
           }
         }
       },
+      "Error": {
+        "type": "object",
+        "properties": {
+          "propertyName": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "messages": {
+            "type": [
+              "null",
+              "array"
+            ],
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
       "ErrorResponse": {
         "type": "object",
         "properties": {
-          "message": {
-            "type": "string"
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Error"
+            }
           }
         }
       }
     }
   },
   "tags": [
+    {
+      "name": "OTPs"
+    },
     {
       "name": "Users"
     }

@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace BL.Exceptions
+{
+    public class AppTooManyRequestsException : AppBaseException
+    {
+        public AppTooManyRequestsException(string message, List<Error>? errors) : base(message, errors)
+        {
+        }
+    }
+}

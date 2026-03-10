@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|Backend\\Backend.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\backend\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|Backend\\Backend.csproj|solutionrelative:backend\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\bl\\dtovalidators\\dtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|solutionrelative:bl\\dtovalidators\\dtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\bl\\dtovalidators\\validators\\dtootpvalidatephonevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|solutionrelative:bl\\dtovalidators\\validators\\dtootpvalidatephonevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\bl\\managers\\otpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|solutionrelative:bl\\managers\\otpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\bl\\imanagers\\iotpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|solutionrelative:bl\\imanagers\\iotpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\bl\\dto\\dtootpvalidatephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|solutionrelative:bl\\dto\\dtootpvalidatephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExceptionHandlingMiddleware.cs",
-              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\Backend\\Middlewares\\ExceptionHandlingMiddleware.cs",
-              "RelativeDocumentMoniker": "Backend\\Middlewares\\ExceptionHandlingMiddleware.cs",
-              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\Backend\\Middlewares\\ExceptionHandlingMiddleware.cs",
-              "RelativeToolTip": "Backend\\Middlewares\\ExceptionHandlingMiddleware.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAAUAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DTOOTPValidatePhoneValidator.cs",
+              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\DTOValidators\\Validators\\DTOOTPValidatePhoneValidator.cs",
+              "RelativeDocumentMoniker": "BL\\DTOValidators\\Validators\\DTOOTPValidatePhoneValidator.cs",
+              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\DTOValidators\\Validators\\DTOOTPValidatePhoneValidator.cs",
+              "RelativeToolTip": "BL\\DTOValidators\\Validators\\DTOOTPValidatePhoneValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T00:54:31.03Z",
+              "WhenOpened": "2026-03-10T01:34:06.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DTOValidators.cs",
+              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\DTOValidators\\DTOValidators.cs",
+              "RelativeDocumentMoniker": "BL\\DTOValidators\\DTOValidators.cs",
+              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\DTOValidators\\DTOValidators.cs",
+              "RelativeToolTip": "BL\\DTOValidators\\DTOValidators.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T01:33:20.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DTOOTPValidatePhone.cs",
+              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\DTO\\DTOOTPValidatePhone.cs",
+              "RelativeDocumentMoniker": "BL\\DTO\\DTOOTPValidatePhone.cs",
+              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\DTO\\DTOOTPValidatePhone.cs",
+              "RelativeToolTip": "BL\\DTO\\DTOOTPValidatePhone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T01:09:07.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IOTPManager.cs",
+              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\IManagers\\IOTPManager.cs",
+              "RelativeDocumentMoniker": "BL\\IManagers\\IOTPManager.cs",
+              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\IManagers\\IOTPManager.cs",
+              "RelativeToolTip": "BL\\IManagers\\IOTPManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T01:02:32.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OTPManager.cs",
+              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\Managers\\OTPManager.cs",
+              "RelativeDocumentMoniker": "BL\\Managers\\OTPManager.cs",
+              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\Managers\\OTPManager.cs",
+              "RelativeToolTip": "BL\\Managers\\OTPManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwDkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T23:56:36.891Z",
               "EditorCaption": ""
             }
           ]

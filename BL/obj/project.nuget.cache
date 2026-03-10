@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "sTKZRLb0GnM=",
+  "dgSpecHash": "mJIZJwO7Wp0=",
   "success": true,
   "projectFilePath": "D:\\\uD83D\uDE80 Projects\\Secure Authentication & Authorization API\\Backend\\BL\\BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\10.0.3\\microsoft.aspnetcore.cryptography.internal.10.0.3.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\10.0.3\\microsoft.aspnetcore.cryptography.keyderivation.10.0.3.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\10.0.3\\microsoft.aspnetcore.identity.entityframeworkcore.10.0.3.nupkg.sha512",

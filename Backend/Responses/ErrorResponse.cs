@@ -1,8 +1,9 @@
-﻿namespace Backend.Responses
+﻿using BL;
+
+namespace Backend.Responses
 {
     public class ErrorResponse
     {
-        public string Message { get; set; } = string.Empty;
-
+        public List<Error> Errors { get; set; }
     }
 }
