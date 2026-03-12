@@ -11,7 +11,6 @@ namespace DAL.ModelsConfigurations
         public void Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<OTP> builder)
         {
             builder.HasKey(x => x.Target);
-            builder.Property(x => x.CodeHash).IsRequired();
             builder.Property(x => x.IsVerified).HasDefaultValue(false).IsRequired();
             builder.Property(x => x.ExpirationTime).IsRequired();
             builder.Property(x => x.TargetType).IsRequired();

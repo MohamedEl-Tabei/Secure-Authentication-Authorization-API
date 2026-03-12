@@ -6,7 +6,9 @@ using System.Text;
 
 namespace DAL.IRepositories
 {
-    public interface IAppUserRepository:IRepository<AppUser>
+    public interface IAppUserRepository : IRepository<AppUser>
     {
+        Task<bool> IsEmailExistAsync(string email);
+        Task<bool> IsPhoneNumberExistAsync(string phoneNumber);
     }
 }

@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\bl\\dtovalidators\\dtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|solutionrelative:bl\\dtovalidators\\dtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\bl\\managers\\appusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|solutionrelative:bl\\managers\\appusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\bl\\dtovalidators\\validators\\dtootpvalidatephonevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|solutionrelative:bl\\dtovalidators\\validators\\dtootpvalidatephonevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\dal\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\bl\\managers\\otpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|solutionrelative:bl\\managers\\otpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\dal\\repositories\\otprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\otprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\bl\\imanagers\\iotpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|solutionrelative:bl\\imanagers\\iotpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\dal\\irepositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\irepositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\bl\\dto\\dtootpvalidatephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9372134D-1611-7D77-0539-DBBD897F17B7}|BL\\BL.csproj|solutionrelative:bl\\dto\\dtootpvalidatephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\dal\\repositories\\appuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\appuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DTOOTPValidatePhoneValidator.cs",
-              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\DTOValidators\\Validators\\DTOOTPValidatePhoneValidator.cs",
-              "RelativeDocumentMoniker": "BL\\DTOValidators\\Validators\\DTOOTPValidatePhoneValidator.cs",
-              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\DTOValidators\\Validators\\DTOOTPValidatePhoneValidator.cs",
-              "RelativeToolTip": "BL\\DTOValidators\\Validators\\DTOOTPValidatePhoneValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\DAL\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\Repository.cs",
+              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\DAL\\Repositories\\Repository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T01:34:06.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DTOValidators.cs",
-              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\DTOValidators\\DTOValidators.cs",
-              "RelativeDocumentMoniker": "BL\\DTOValidators\\DTOValidators.cs",
-              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\DTOValidators\\DTOValidators.cs",
-              "RelativeToolTip": "BL\\DTOValidators\\DTOValidators.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T01:33:20.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DTOOTPValidatePhone.cs",
-              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\DTO\\DTOOTPValidatePhone.cs",
-              "RelativeDocumentMoniker": "BL\\DTO\\DTOOTPValidatePhone.cs",
-              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\DTO\\DTOOTPValidatePhone.cs",
-              "RelativeToolTip": "BL\\DTO\\DTOOTPValidatePhone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T01:09:07.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IOTPManager.cs",
-              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\IManagers\\IOTPManager.cs",
-              "RelativeDocumentMoniker": "BL\\IManagers\\IOTPManager.cs",
-              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\IManagers\\IOTPManager.cs",
-              "RelativeToolTip": "BL\\IManagers\\IOTPManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T01:02:32.395Z",
+              "WhenOpened": "2026-03-12T00:07:23.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OTPManager.cs",
-              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\Managers\\OTPManager.cs",
-              "RelativeDocumentMoniker": "BL\\Managers\\OTPManager.cs",
-              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\Managers\\OTPManager.cs",
-              "RelativeToolTip": "BL\\Managers\\OTPManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwDkAAAAFAAAAAAAAAA==",
+              "Title": "OTPRepository.cs",
+              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\DAL\\Repositories\\OTPRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\OTPRepository.cs",
+              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\DAL\\Repositories\\OTPRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\OTPRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T23:56:36.891Z",
+              "WhenOpened": "2026-03-12T00:07:09.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\DAL\\IRepositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\IRepositories\\IRepository.cs",
+              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\DAL\\IRepositories\\IRepository.cs",
+              "RelativeToolTip": "DAL\\IRepositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T00:06:50.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppUserRepository.cs",
+              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\DAL\\Repositories\\AppUserRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\AppUserRepository.cs",
+              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\DAL\\Repositories\\AppUserRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\AppUserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T22:54:35.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppUserManager.cs",
+              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\Managers\\AppUserManager.cs",
+              "RelativeDocumentMoniker": "BL\\Managers\\AppUserManager.cs",
+              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\Managers\\AppUserManager.cs",
+              "RelativeToolTip": "BL\\Managers\\AppUserManager.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwDAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T22:52:20.231Z",
               "EditorCaption": ""
             }
           ]

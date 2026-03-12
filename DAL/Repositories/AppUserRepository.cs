@@ -15,5 +15,15 @@ namespace DAL.Repositories
         public AppUserRepository(MyContext myContext) : base(myContext)
         {
         }
+
+        public async Task<bool> IsEmailExistAsync(string email)
+        {
+            return await _myContext.Users.AnyAsync(u => u.Email == email);
+        }
+
+        public async Task<bool> IsPhoneNumberExistAsync(string phoneNumber)
+        {
+            return await _myContext.Users.AnyAsync(u => u.PhoneNumber == phoneNumber);
+        }
     }
 }

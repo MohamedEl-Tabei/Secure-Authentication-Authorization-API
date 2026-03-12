@@ -16,6 +16,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Backend.Controllers.OTPsController",
+    "Method": "ValidatePhoneAsync",
+    "RelativePath": "api/OTPs/validate-phone",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTOOTPValidatePhone",
+        "Type": "BL.DTO.DTOOTPValidatePhone",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Backend.Controllers.UsersController",
     "Method": "SignUp",
     "RelativePath": "api/Users/signup",

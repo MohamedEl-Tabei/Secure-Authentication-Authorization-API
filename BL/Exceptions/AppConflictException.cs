@@ -4,7 +4,10 @@ using System.Text;
 
 namespace BL.Exceptions
 {
-    internal class AppConflictException
+    public class AppConflictException:AppBaseException
     {
+        public AppConflictException(string message,List<Error> errors) : base(message,errors)
+        {
+        }
     }
 }

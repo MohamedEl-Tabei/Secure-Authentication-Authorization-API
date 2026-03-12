@@ -8,6 +8,7 @@ namespace DAL
     public interface IUnitOfWork
     {
         IOTPRepository OTPRepository { get; }
+        IAppUserRepository AppUserRepository { get; }
         Task SaveChangesAsync();
         Task BeginTransactionAsync();
         

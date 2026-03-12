@@ -51,9 +51,28 @@ namespace BL.Managers
             await _unitOfWork.SaveChangesAsync();
         }
 
-        public Task ValidatePhoneOTPAsync(DTOOTPValidatePhone dTOOTPValidatePhone)
+        public async Task ValidatePhoneOTPAsync(DTOOTPValidatePhone dTOOTPValidatePhone)
         {
-            throw new NotImplementedException();
+            _dTOValidators.ValidateAndThrowDTOOTPValidatePhone(dTOOTPValidatePhone);
+            var otp = await _unitOfWork.OTPRepository.GetByIdAsync(dTOOTPValidatePhone.PhoneNumber);
+            var errors = new List<Error>();
+            #region Check if OTP exists 
+
+            if (otp == null)
+                throw new AppNotFoundException("Phone number not found or OTP not generated for this phone number.", null);
+            #endregion
+            #region Check if OTP is not expired
+            if (otp.ExpirationTime < DateTime.UtcNow)
+                throw new AppValidationException("OTP code has expired.", null);
+            #endregion
+            var isValid = Utilities.VerifyCodeHash(dTOOTPValidatePhone.Code, dTOOTPValidatePhone.PhoneNumber, otp.CodeHash);
+            if (!isValid) throw new AppValidationException("Invalid OTP code.", null);
+            #region If OTP is valid, mark it as verified and save changes.
+            otp.IsVerified = true;
+            otp.ExpirationTime = DateTime.UtcNow.AddHours(1);
+            otp.CodeHash = null;
+            await _unitOfWork.SaveChangesAsync();
+            #endregion
         }
     }
 }

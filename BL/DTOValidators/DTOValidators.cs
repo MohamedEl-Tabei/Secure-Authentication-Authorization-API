@@ -11,17 +11,26 @@ namespace BL
     {
         private readonly IValidator<DTOUserSignUp> _dtoUserSignUp;
         private readonly IValidator<DTOOTPSendPhone> _dtoOTPSendPhone;
+        private readonly IValidator<DTOOTPValidatePhone> _dtoOTPValidatePhone;
 
-        public DTOValidators(IValidator<DTOUserSignUp> dtoUserSignUp, IValidator<DTOOTPSendPhone> dtoOTPSendPhone)
+        public DTOValidators(IValidator<DTOUserSignUp> dtoUserSignUp, IValidator<DTOOTPSendPhone> dtoOTPSendPhone, IValidator<DTOOTPValidatePhone> dtoOTPValidatePhone)
         {
 
             _dtoUserSignUp = dtoUserSignUp;
             _dtoOTPSendPhone = dtoOTPSendPhone;
+            _dtoOTPValidatePhone = dtoOTPValidatePhone;
         }
 
         public void ValidateAndThrowDTOOTPSendPhone(DTOOTPSendPhone dTOOTPSendPhone)
         {
             var result = _dtoOTPSendPhone.Validate(dTOOTPSendPhone);
+            if (!result.IsValid) Utilities.ThrowAppValidationException(result.Errors);
+        }
+
+
+        public void ValidateAndThrowDTOOTPValidatePhone(DTOOTPValidatePhone dTOOTPValidatePhone)
+        {
+            var result = _dtoOTPValidatePhone.Validate(dTOOTPValidatePhone);
             if (!result.IsValid) Utilities.ThrowAppValidationException(result.Errors);
         }
 

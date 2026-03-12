@@ -5,7 +5,7 @@ namespace DAL.Repositories
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        private readonly MyContext _myContext;
+        protected readonly MyContext _myContext;
 
         public Repository(MyContext myContext)
         {
@@ -18,7 +18,7 @@ namespace DAL.Repositories
 
         public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            _myContext.Set<T>().Remove(entity);
         }
 
         public Task<IEnumerable<T>> GetAllAsync()

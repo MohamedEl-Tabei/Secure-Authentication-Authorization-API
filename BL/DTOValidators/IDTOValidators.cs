@@ -8,8 +8,9 @@ namespace BL
 {
     public interface IDTOValidators
     {
-          void ValidateAndThrowDTOUserSignUp(DTOUserSignUp dTOUserSignUp) ;
-          void ValidateAndThrowDTOOTPSendPhone(DTOOTPSendPhone dTOOTPSendPhone);
+        void ValidateAndThrowDTOUserSignUp(DTOUserSignUp dTOUserSignUp);
+        void ValidateAndThrowDTOOTPSendPhone(DTOOTPSendPhone dTOOTPSendPhone);
+        void ValidateAndThrowDTOOTPValidatePhone(DTOOTPValidatePhone dTOOTPValidatePhone);
 
     }
 }

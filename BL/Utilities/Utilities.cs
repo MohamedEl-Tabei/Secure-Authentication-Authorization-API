@@ -46,7 +46,10 @@ namespace BL
         }
         public static bool VerifyCodeHash(string code, string key, string hash)
         {
-            var hashCode = GenerateCodeHash(key);
+            var sha256 = SHA256.Create();
+            var bytes = Encoding.UTF8.GetBytes(code + key);
+            var hashBytes = sha256.ComputeHash(bytes);
+            var hashCode = Convert.ToBase64String(hashBytes).ToString();
             return hashCode == hash;
         }
         #endregion

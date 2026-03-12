@@ -4,7 +4,10 @@ using System.Text;
 
 namespace BL.Exceptions
 {
-    internal class AppForbiddenException
+    public class AppForbiddenException:AppBaseException
     {
+        public AppForbiddenException(string message, List<Error> errors) : base(message, errors)
+        {
+        }
     }
 }

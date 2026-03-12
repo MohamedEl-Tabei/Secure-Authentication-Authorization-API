@@ -36,13 +36,19 @@ namespace Backend.Middlewares
                 switch (ex)
                 {
                     case AppValidationException:
-                        context.Response.StatusCode = 400;
+                        context.Response.StatusCode = StatusCodes.Status400BadRequest;
                         break;
                     case AppNotFoundException:
-                        context.Response.StatusCode = 404;
+                        context.Response.StatusCode = StatusCodes.Status404NotFound;
                         break;
                     case AppTooManyRequestsException:
-                        context.Response.StatusCode = 429;
+                        context.Response.StatusCode = StatusCodes.Status429TooManyRequests;
+                        break;
+                    case AppConflictException:
+                        context.Response.StatusCode = StatusCodes.Status409Conflict;
+                        break;
+                    case AppForbiddenException:
+                        context.Response.StatusCode = StatusCodes.Status403Forbidden;
                         break;
                     default:
                         context.Response.StatusCode = 404;

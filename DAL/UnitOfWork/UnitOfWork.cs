@@ -10,13 +10,16 @@ namespace DAL
     public class UnitOfWork : IUnitOfWork
     {
         public IOTPRepository OTPRepository { get; }
+        public IAppUserRepository AppUserRepository { get; }
 
         private readonly MyContext _myContext;
         private IDbContextTransaction? Transaction { get; set; }
 
-        public UnitOfWork(IOTPRepository oTPRepository, MyContext myContext)
+
+        public UnitOfWork(IOTPRepository oTPRepository,IAppUserRepository appUserRepository, MyContext myContext)
         {
             OTPRepository = oTPRepository;
+            AppUserRepository = appUserRepository;
             _myContext = myContext;
         }
 

@@ -45,6 +45,38 @@
         }
       }
     },
+    "/api/OTPs/validate-phone": {
+      "post": {
+        "tags": [
+          "OTPs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOOTPValidatePhone"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOOTPValidatePhone"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DTOOTPValidatePhone"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Users/signup": {
       "post": {
         "tags": [
@@ -104,6 +136,17 @@
         "type": "object",
         "properties": {
           "phoneNumber": {
+            "type": "string"
+          }
+        }
+      },
+      "DTOOTPValidatePhone": {
+        "type": "object",
+        "properties": {
+          "phoneNumber": {
+            "type": "string"
+          },
+          "code": {
             "type": "string"
           }
         }

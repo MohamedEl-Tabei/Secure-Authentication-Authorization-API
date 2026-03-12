@@ -22,5 +22,11 @@ namespace Backend.Controllers
             await _oTPManager.SendToPhoneAsync(dTOOTPSendPhone);
             return Ok();
         }
+        [HttpPost("validate-phone")]
+        public async Task<IActionResult> ValidatePhoneAsync(DTOOTPValidatePhone dTOOTPValidatePhone)
+        {
+            await _oTPManager.ValidatePhoneOTPAsync(dTOOTPValidatePhone);
+            return Ok();
+        }
     }
 }
