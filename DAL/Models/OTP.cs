@@ -7,11 +7,11 @@ namespace DAL.Models
 {
     public class OTP
     {
+        public string Id { get; set; } = Guid.NewGuid().ToString();
         public string Target { get; set; }
-        public string? CodeHash { get; set; }
-        public bool IsVerified { get; set; } = false;
+        public string CodeHash { get; set; }
         public OTPTargetType TargetType { get; set; }
-        public DateTime ExpirationTime { get; set; }
+        public DateTime ExpirationTime { get; set; } = DateTime.Now.AddMinutes(5);
 
     }
 }

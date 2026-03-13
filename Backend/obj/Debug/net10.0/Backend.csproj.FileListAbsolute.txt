@@ -366,3 +366,10 @@ D:\🚀 Projects\Secure Authentication & Authorization API\Backend\Backend\obj\D
 D:\🚀 Projects\Secure Authentication & Authorization API\Backend\Backend\obj\Debug\net10.0\ref\Backend.dll
 D:\🚀 Projects\Secure Authentication & Authorization API\Backend\Backend\bin\Debug\net10.0\FluentValidation.dll
 D:\🚀 Projects\Secure Authentication & Authorization API\Backend\Backend\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\Backend\bin\Debug\net10.0\Enums.NET.dll
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\Backend\bin\Debug\net10.0\jose-jwt.dll
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\Backend\bin\Debug\net10.0\StandardSocketsHttpHandler.dll
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\Backend\bin\Debug\net10.0\TestableIO.System.IO.Abstractions.dll
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\Backend\bin\Debug\net10.0\TestableIO.System.IO.Abstractions.Wrappers.dll
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\Backend\bin\Debug\net10.0\Testably.Abstractions.FileSystem.Interface.dll
+D:\🚀 Projects\Secure Authentication & Authorization API\Backend\Backend\bin\Debug\net10.0\Vonage.dll

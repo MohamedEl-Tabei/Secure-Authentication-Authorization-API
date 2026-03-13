@@ -72,7 +72,24 @@
         },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseOfstring"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseOfstring"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseOfstring"
+                }
+              }
+            }
           }
         }
       }
@@ -199,6 +216,17 @@
             "items": {
               "$ref": "#/components/schemas/Error"
             }
+          }
+        }
+      },
+      "ResponseOfstring": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": [
+              "null",
+              "string"
+            ]
           }
         }
       }

@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="Vonage" Version="8.25.0" />
   </ItemGroup>
 
   <ItemGroup>

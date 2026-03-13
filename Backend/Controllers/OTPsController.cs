@@ -1,4 +1,5 @@
-﻿using BL.DTO;
+﻿using Backend.Responses;
+using BL.DTO;
 using BL.IManagers;
 using BL.Managers;
 using Microsoft.AspNetCore.Http;
@@ -23,10 +24,14 @@ namespace Backend.Controllers
             return Ok();
         }
         [HttpPost("validate-phone")]
-        public async Task<IActionResult> ValidatePhoneAsync(DTOOTPValidatePhone dTOOTPValidatePhone)
+        public async Task<ActionResult<Response<string>>> ValidatePhoneAsync(DTOOTPValidatePhone dTOOTPValidatePhone)
         {
-            await _oTPManager.ValidatePhoneOTPAsync(dTOOTPValidatePhone);
-            return Ok();
+            var data = await _oTPManager.ValidatePhoneOTPAsync(dTOOTPValidatePhone);
+            var response = new Response<string>
+            {
+                Data = data
+            };
+            return Ok(response);
         }
     }
 }

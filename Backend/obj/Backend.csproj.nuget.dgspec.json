@@ -559,6 +559,10 @@
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
               "version": "[12.1.1, )"
+            },
+            "Vonage": {
+              "target": "Package",
+              "version": "[8.25.0, )"
             }
           },
           "imports": [

@@ -8,6 +8,6 @@ namespace BL.IManagers
     public interface IOTPManager
     {
         Task SendToPhoneAsync(DTOOTPSendPhone dTOOTPSendPhone);
-        Task ValidatePhoneOTPAsync(DTOOTPValidatePhone dTOOTPValidatePhone);
+        Task<string> ValidatePhoneOTPAsync(DTOOTPValidatePhone dTOOTPValidatePhone);
     }
 }

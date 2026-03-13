@@ -7,7 +7,6 @@ namespace DAL.IRepositories
 {
     public interface IOTPRepository:IRepository<OTP>
     {
-        Task<bool> IsVerifiedEmailAsync(string email);
-        Task<bool> IsVerifiedPhoneNumberAsync(string phoneNumber);
+        Task<OTP> GetByTargetAsync(string target);
     }
 }

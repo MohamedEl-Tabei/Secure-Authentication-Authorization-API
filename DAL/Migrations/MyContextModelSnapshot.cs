@@ -94,24 +94,27 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("DAL.Models.OTP", b =>
                 {
-                    b.Property<string>("Target")
+                    b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("CodeHash")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("ExpirationTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<bool>("IsVerified")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasDefaultValue(false);
+                    b.Property<string>("Target")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("TargetType")
                         .HasColumnType("int");
 
-                    b.HasKey("Target");
+                    b.HasKey("Id");
+
+                    b.HasIndex("Target")
+                        .IsUnique();
 
                     b.ToTable("OTPs");
                 });

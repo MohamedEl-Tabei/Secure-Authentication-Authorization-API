@@ -40,11 +40,7 @@ namespace BL.Managers
             if (errors.Any()) throw new AppConflictException("", errors);
             #endregion
             #region check if phone number and email are verified
-            var isVerifiedEmail = await _unitOfWork.OTPRepository.IsVerifiedEmailAsync(dTOUserSignUp.Email);
-            var isVerifiedPhoneNumber = await _unitOfWork.OTPRepository.IsVerifiedPhoneNumberAsync(dTOUserSignUp.PhoneNumber);
-            if (!isVerifiedEmail) errors.Add(new Error { PropertyName = "Email", Messages = new List<string> { "Email is not verified" } });
-            if (!isVerifiedPhoneNumber) errors.Add(new Error { PropertyName = "PhoneNumber", Messages = new List<string> { "Phone number is not verified" } });
-            if (errors.Any()) throw new AppForbiddenException("", errors);
+            
             #endregion
             #region Create user
             var user = new AppUser

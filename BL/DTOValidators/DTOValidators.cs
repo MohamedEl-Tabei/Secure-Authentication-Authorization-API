@@ -1,5 +1,6 @@
 ﻿using BL.DTO;
 using BL.Exceptions;
+using BL.Extensions;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
@@ -24,20 +25,20 @@ namespace BL
         public void ValidateAndThrowDTOOTPSendPhone(DTOOTPSendPhone dTOOTPSendPhone)
         {
             var result = _dtoOTPSendPhone.Validate(dTOOTPSendPhone);
-            if (!result.IsValid) Utilities.ThrowAppValidationException(result.Errors);
+            if (!result.IsValid) result.Errors.ThrowAppValidationException();
         }
 
 
         public void ValidateAndThrowDTOOTPValidatePhone(DTOOTPValidatePhone dTOOTPValidatePhone)
         {
             var result = _dtoOTPValidatePhone.Validate(dTOOTPValidatePhone);
-            if (!result.IsValid) Utilities.ThrowAppValidationException(result.Errors);
+            if (!result.IsValid) result.Errors.ThrowAppValidationException();
         }
 
         public void ValidateAndThrowDTOUserSignUp(DTOUserSignUp dTOUserSignUp)
         {
             var result = _dtoUserSignUp.Validate(dTOUserSignUp);
-            if (!result.IsValid) Utilities.ThrowAppValidationException(result.Errors);
+            if (!result.IsValid) result.Errors.ThrowAppValidationException();
         }
 
     }

@@ -19,6 +19,7 @@ namespace BL
                 #region Managers
                 services.AddScoped<IAppUserManager, AppUserManager>();
                 services.AddScoped<IOTPManager, OTPManager>();
+                services.AddScoped<ISMSManager, SMSManager>();
                 services.AddScoped<IDTOValidators, DTOValidators>();
                 #endregion
                 #region Validators
