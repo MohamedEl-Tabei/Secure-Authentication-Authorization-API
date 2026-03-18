@@ -1,47 +1,5 @@
 [
   {
-    "ContainingType": "Backend.Controllers.OTPsController",
-    "Method": "SendToPhoneAsync",
-    "RelativePath": "api/OTPs/send-phone",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dTOOTPSendPhone",
-        "Type": "BL.DTO.DTOOTPSendPhone",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Backend.Controllers.OTPsController",
-    "Method": "ValidatePhoneAsync",
-    "RelativePath": "api/OTPs/validate-phone",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dTOOTPValidatePhone",
-        "Type": "BL.DTO.DTOOTPValidatePhone",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Backend.Responses.Response\u00601[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
     "ContainingType": "Backend.Controllers.UsersController",
     "Method": "SignUp",
     "RelativePath": "api/Users/signup",
@@ -69,6 +27,52 @@
           "text/json"
         ],
         "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "Backend.MinimalAPIs.OTPEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOTPEndpoints\u003Eb__1_0",
+    "RelativePath": "otp/send-phone",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTOOTPSendPhone",
+        "Type": "BL.DTO.DTOOTPSendPhone",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Backend.MinimalAPIs.OTPEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOTPEndpoints\u003Eb__1_1",
+    "RelativePath": "otp/validate-phone",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTOOTPValidatePhone",
+        "Type": "BL.DTO.DTOOTPValidatePhone",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain"
+        ],
+        "StatusCode": 200
       }
     ]
   }

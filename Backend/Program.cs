@@ -2,6 +2,7 @@ using Scalar.AspNetCore;
 using DAL;
 using BL;
 using Backend.Middlewares;
+using Backend.MinimalAPIs;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -12,7 +13,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddDALServices(builder.Configuration);
 builder.Services.AddBLServices();
 var app = builder.Build();
-
+app.MapOTPEndpoints();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

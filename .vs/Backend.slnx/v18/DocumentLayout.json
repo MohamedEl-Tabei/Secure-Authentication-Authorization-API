@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|Backend\\Backend.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|Backend\\Backend.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\backend\\endpoints\\otpendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|Backend\\Backend.csproj|solutionrelative:backend\\endpoints\\otpendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|Backend\\Backend.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\backend\\controllers\\otpscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\otpscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|Backend\\Backend.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}|Backend\\Backend.csproj|d:\\\uD83D\uDE80 projects\\secure authentication \u0026 authorization api\\backend\\backend\\responses\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +42,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\Backend\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\Backend\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T00:05:47.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "OTPEndpoints.cs",
+              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\Backend\\Endpoints\\OTPEndpoints.cs",
+              "RelativeDocumentMoniker": "Backend\\Endpoints\\OTPEndpoints.cs",
+              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\Backend\\Endpoints\\OTPEndpoints.cs",
+              "RelativeToolTip": "Backend\\Endpoints\\OTPEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T00:03:19.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T23:55:18.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Response.cs",
               "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\Backend\\Responses\\Response.cs",
               "RelativeDocumentMoniker": "Backend\\Responses\\Response.cs",
@@ -42,25 +93,24 @@
               "RelativeToolTip": "Backend\\Responses\\Response.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T04:18:23.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T04:18:23.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "OTPsController.cs",
               "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\Backend\\Controllers\\OTPsController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\OTPsController.cs",
               "ToolTip": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\Backend\\Controllers\\OTPsController.cs",
               "RelativeToolTip": "Backend\\Controllers\\OTPsController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwCEAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T04:17:38.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "IOTPManager.cs",
               "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\IManagers\\IOTPManager.cs",
               "RelativeDocumentMoniker": "BL\\IManagers\\IOTPManager.cs",
@@ -68,12 +118,11 @@
               "RelativeToolTip": "BL\\IManagers\\IOTPManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T04:17:07.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T04:17:07.637Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "IOTPRepository.cs",
               "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\DAL\\IRepositories\\IOTPRepository.cs",
               "RelativeDocumentMoniker": "DAL\\IRepositories\\IOTPRepository.cs",
@@ -81,12 +130,11 @@
               "RelativeToolTip": "DAL\\IRepositories\\IOTPRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T04:16:58.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T04:16:58.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "OTPManager.cs",
               "DocumentMoniker": "D:\\\uD83D\uDE80 Projects\\Secure Authentication \u0026 Authorization API\\Backend\\BL\\Managers\\OTPManager.cs",
               "RelativeDocumentMoniker": "BL\\Managers\\OTPManager.cs",
@@ -94,8 +142,7 @@
               "RelativeToolTip": "BL\\Managers\\OTPManager.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAApwA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T00:05:30.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T00:05:30.021Z"
             }
           ]
         }
